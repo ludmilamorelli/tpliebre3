@@ -1,0 +1,173 @@
+*{
+    font-family:'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header {
+    position: static;
+    background-color: #EAC926;
+    font-size: 12px;
+    width: 100%;
+ 
+}
+.logo{
+    margin-left: 25px;
+    padding-top: 30px;
+    color: #03264C;;
+}
+.barra-busqueda{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.nav-search-input{
+    padding: 1px;
+    margin: 1px;
+    width: 165px;
+    height: 16px;
+    font-size: 12px;
+    border: solid black 1px;
+    
+}
+.boton i{
+    position: relative;
+    background-color: white;
+    margin: 1px;
+    border: solid black 1px;
+    padding: 2px;
+    color: black;
+    text-align: center;   
+}
+.hand {
+    position: absolute;
+    margin-left: 42px;
+   color: #000;
+}
+
+.facilidades {
+    position: relative;
+    margin-top: 10px;
+    left: 55px;
+    margin-bottom: 15px;
+}
+header nav{
+    padding-bottom: 15px;
+}
+.burger-menu {
+        display: inline-block;
+        line-height: 10px;
+        background-color: #1259c3;
+        color: hsl(0, 0%, 100%);
+        padding: 8px;
+        border: #1259c3 1px solid ;
+        border-radius: 5px;
+        margin-top: 25px;
+        margin-bottom:25px;
+        font-size: 15px;
+        margin-left: 140px;
+}
+body{
+    background-color:#ebebeb;
+    width: 100%;
+}
+ main h2{
+     font-size:24px;
+}
+.precio{
+    font-size:18px;
+}
+.descuentos{
+    font-size:16px;
+}
+main h4{
+    font-size:16px;
+}
+
+.product{
+    background-color: white;
+    margin: 15px ;
+   box-sizing: content-box;
+   display: block;
+   padding: 10px;
+  
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    margin:2px;
+    background-color: white;
+}
+
+footer section i{
+    color: #1259c3;
+    font-size: 2em;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+footer section h3{
+    color:  #666;
+}
+footer p{
+    color:  #666;
+}
+
+footer p.copyright{
+    margin-top: 30px;
+    padding-left: 15px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+main{
+    width: 90%;
+   margin: auto;
+}
+.camion{
+    display: inline-block;
+   color: #39b54a;
+   font-size: 40px;
+   border-radius: 50%;
+   border: 1px solid #39b54a;
+   position: relative;
+   padding: 8px;
+}
+.caja{
+    border:#ebebeb 1px solid ;
+    padding: 15px;
+}
+@media (max-width:360px){
+    header nav{
+        display: none;
+    }
+    .product h4{
+        display: none;
+    }
+}
+
+@media (min-width:361px) {
+    .burger-menu {
+        display: none;
+    }
+
+    .home main section article {
+        box-shadow: 0 0 10px rgb(15, 14, 14);
+    }
+    .home main section article.caja{
+        display: block;
+    }
+    
+}
+@media (min-width:769px){
+
+}
